@@ -1,6 +1,6 @@
 /*!
  * jQuery Bootstrap Dynamic Modal
- * Original author: @pizzaboit
+ * Original author: @patiernom
  * Further changes, comments:
  * Licensed under the MIT license
  */

@@ -1,6 +1,6 @@
 /*!
  * jQuery Bootstrap Offcanvas menu
- * Original author: @pizzaboit
+ * Original author: @patiernom
  * Further changes, comments:
  * Licensed under the MIT license
  */
