@@ -127,13 +127,12 @@
       "maps": "/maps",
       "srcfiles": [
         "src/less/icon-fonts.less",
-        "src/less/utilities.less",
+        "src/less/theme-utilities.less",
         "src/less/theme-dropdowns.less",
         "src/less/theme-font.less",
         "src/less/theme-common.less",
         "src/less/theme-scrollpane.less",
         "src/less/offcanvas-menu.less",
-        "src/less/scrollToTop.less",
         "src/less/bootstrap-validation.less",
         "src/less/app.less"
       ]

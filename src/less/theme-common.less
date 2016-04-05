@@ -1,3 +1,7 @@
+@import (reference) "variables.less";
+@import (reference) "theme-icon-fonts.less";
+@import (reference) "theme-utilities.less";
+
 /* Common declaration */
 body {
   padding-top: 66px;
@@ -23,7 +27,7 @@ span.ui-helper-hidden-accessible {
 }
 
 .generic-page-main {
-  padding-bottom: 0px;
+  padding-bottom: 0;
 }
 
 .row {
@@ -191,4 +195,23 @@ input, select, textarea {
 
 button{
   outline:none !important;
+}
+
+.scrollToTop{
+  text-align:center;
+  background: transparent;
+  color: @orange-main;
+  text-decoration: none;
+  position: fixed;
+  bottom: 100px;
+  right: 100px;
+  display: none;
+  outline: none;
+  .icon-rotate(270);
+
+  &:hover, &:visited, &:link {
+    text-decoration: none;
+    color: @orange-main;
+    outline: none;
+  }
 }
